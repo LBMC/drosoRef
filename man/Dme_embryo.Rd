@@ -5,7 +5,7 @@
 \alias{Dme_embryo}
 \title{Dme_embryo}
 \format{
-An object of class \code{list} of length 3.
+An object of class \code{list} of length 6.
 }
 \source{
 \href{https://fruitfly.org/sequence/download.html#modencode_expression_scores}{fruitfly.org}
@@ -44,6 +44,9 @@ A list with :
 \item \verb{$dim_red} : the dimension reduction method to use (pca, ica).
 \item \verb{$nc}: The number PCA/ICA components to use in the model.
 }
+\item \verb{$t.unit}: the time series unit (e.g 'hours').
+\item \verb{$cov.levels}: a named list of potential covariate with the level to interpolate as.
+\item \verb{$metadata}: a named list of extra metadata (e.g organism, profiling technology).
 }
 }
 

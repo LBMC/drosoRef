@@ -1,2 +1,2 @@
-name,organism,description
-Dme_embryo,Drosophila melanogaster,Embryonic development reference series from 0 to 22hr
+name,organism,description,range
+Dme_embryo,Drosophila melanogaster,Embryonic development,0 to 22 h past egg-laying

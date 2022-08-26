@@ -1,6 +1,6 @@
 Package: drosoRef
 Title: Drosophila Reference Data For The RAPToR Package
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
   person("Romain", "Bulteau", email = "romain.bulteau@ens-lyon.fr",
     role = c("aut", "cre")),
@@ -12,7 +12,7 @@ Description: drosoRef is a data package that holds the drosophila reference data
 Depends: 
   R (>= 3.4.0)
 Imports:
-  RAPToR,
+  RAPToR (>= 1.2.0),
   Rdpack,
   utils,
   rlang
@@ -26,4 +26,4 @@ Suggests:
   ggplot2
 RdMacros: Rdpack
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.2.0

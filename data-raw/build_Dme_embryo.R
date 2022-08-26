@@ -38,7 +38,12 @@ Dme_embryo <- list(g = X,
                    geim_params = list(formula = "X ~ s(age, bs = 'cr')",
                                       method = "gam",
                                       dim_red = "pca",
-                                      nc = nc)
+                                      nc = nc),
+                   t.unit = "h past egg-laying",
+                   cov.levels = NULL,
+                   metadata = list("organism" = "D. melanogaster",
+                                   "profiling" = "whole-organism, bulk",
+                                   "technology" = "RNAseq")
 )
 
 
